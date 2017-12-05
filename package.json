@@ -1,7 +1,20 @@
 {
   "name": "reactive-site",
   "version": "0.1.0",
+  "description": "Reactive LA website",
+  "main": "index.js",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dareolson/reactive-site.git"
+  },
+  "author": "Mike Olie and Derek Olson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dareolson/reactive-site/issues"
+  },
+
+  "homepage": "https://github.com/dareolson/reactive-site#readme",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -10,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom"
+    
   }
 }
