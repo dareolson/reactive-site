@@ -13,17 +13,16 @@
   "bugs": {
     "url": "https://github.com/dareolson/reactive-site/issues"
   },
-
   "homepage": "https://github.com/dareolson/reactive-site#readme",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom"
-    
   }
 }
